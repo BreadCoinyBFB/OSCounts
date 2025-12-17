@@ -1,0 +1,35 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SubTrack</title>
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Top Bar -->
+  <header class="topbar">
+    <div class="logo">SubTrack</div>
+    <input id="searchInput" type="text" placeholder="Search YouTube channel..." />
+    <button onclick="searchChannel()">Search</button>
+  </header>  <!-- Menu -->  <nav class="menu">
+    <button onclick="showTab('track')">Track</button>
+    <button onclick="showTab('analytics')">Analytics</button>
+    <button onclick="showTab('stats')">Stats</button>
+  </nav>  <!-- Content -->  <main>
+    <section id="track" class="tab active">
+      <h2>Channel Tracker</h2>
+      <div id="result">Search for a channel to begin.</div>
+    </section><section id="analytics" class="tab">
+  <h2>Analytics</h2>
+  <p>Growth charts and trends (placeholder).</p>
+</section>
+
+<section id="stats" class="tab">
+  <h2>Stats</h2>
+  <p>Daily / monthly statistics (placeholder).</p>
+</section>
+
+  </main>
+</body>
+</html>
