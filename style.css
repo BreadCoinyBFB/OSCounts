@@ -1,9 +1,9 @@
-body {
-  font-family: Arial, sans-serif;
+ody {  
+  background: linear-gradient(to right, #ff4d00, #ffa500);
+  font-family: 'Roboto', Inter, sans-serif;
+  text-align: center;
   margin: 0;
-  background: #0f0f0f;
-  color: white;
-}
+}  
 
 .topbar {
   display: flex;
