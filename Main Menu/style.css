@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #0f0f0f;
+  color: white;
+}
+
+.topbar {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  background: #181818;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  background: #202020;
+}
+
+.menu button {
+  flex: 1;
+  border: none;
+  background: none;
+  color: white;
+  padding: 12px;
+}
+
+.menu button:hover {
+  background: #303030;
+}
+
+.tab {
+  display: none;
+  padding: 20px;
+}
+
+.tab.active {
+  display: block;
+}
